@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+  dstserver:
+    build: .
+    ports:
+      - "11000:11000/udp"
+    environment:
+      CLUSTER_TOKEN:
