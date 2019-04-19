@@ -15,6 +15,8 @@ return {
   ["workshop-375850593"] = { enabled = true },
   --#Storeroom
   ["workshop-623749604"] = { enabled = true },
+  --#Restart
+  ["workshop-462434129"] = { enabled = true },
 
   --#The Engineer
   ["workshop-791838548"] = { enabled = true },
