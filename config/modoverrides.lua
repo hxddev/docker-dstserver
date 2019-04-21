@@ -1,8 +1,6 @@
 return {
   --#Chinese Language Pack
   ["workshop-367546858"] = { enabled = true },
-  --#Chinese Plus
-  ["workshop-572538624"] = { enabled = true },
   --#Moving Box
   ["workshop-1079538195"] = { enabled = true },
   --#Global Positions
@@ -18,12 +16,10 @@ return {
   --#Restart
   ["workshop-462434129"] = { enabled = true },
 
-  --#The Engineer
-  ["workshop-791838548"] = { enabled = true },
-  --#The Medic
-  ["workshop-379628839"] = { enabled = true },
-  --#The Spy
-  ["workshop-589167205"] = { enabled = true },
-  --#The Scout
-  ["workshop-1049176456"] = { enabled = true },
+  --#娜娜奇
+  ["workshop-1166220990"] = { enabled = true },
+  --#莉可
+  ["workshop-1181077385"] = { enabled = true },
+  --#雷古
+  ["workshop-1217385169"] = { enabled = true },
 }

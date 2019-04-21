@@ -1,7 +1,5 @@
 --#Chinese Language Pack
 ServerModSetup("367546858")
---#Chinese Plus
-ServerModSetup("572538624")
 --#Moving Box
 ServerModSetup("1079538195")
 --#Global Positions
@@ -17,12 +15,9 @@ ServerModSetup("623749604")
 --#Restart
 ServerModSetup("462434129")
 
-
---#The Engineer
-ServerModSetup("791838548")
---#The Medic
-ServerModSetup("379628839")
---#The Spy
-ServerModSetup("589167205")
---#The Scout
-ServerModSetup("1049176456")
+--#娜娜奇
+ServerModSetup("1166220990")
+--#莉可
+ServerModSetup("1181077385")
+--#雷古
+ServerModSetup("1217385169")
