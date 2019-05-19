@@ -1,5 +1,3 @@
---#Chinese Language Pack
-ServerModSetup("367546858")
 --#Moving Box
 ServerModSetup("1079538195")
 --#Global Positions
@@ -14,6 +12,8 @@ ServerModSetup("375850593")
 ServerModSetup("623749604")
 --#Restart
 ServerModSetup("462434129")
+--#MyPet
+ServerModSetup("1275167632")
 
 --#精灵公主
 ServerModSetup("439115156")
