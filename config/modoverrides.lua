@@ -1,14 +1,14 @@
 return {
+  --#Chinese Language Pack
+  ["workshop-1301033176"] = { enabled = true },
+  --#Chinese Plus
+  ["workshop-572538624"] = { enabled = true },
   --#Moving Box
   ["workshop-1079538195"] = { enabled = true },
   --#Global Positions
   ["workshop-378160973"] = { enabled = true },
-  --#Restart
-  ["workshop-462434129"] = { enabled = true },
   --#Extra Equip Slots
   ["workshop-375850593"] = { enabled = true },
-  --#Health Info
-  ["workshop-375859599"] = { enabled = true },
   --#Show Me
   ["workshop-666155465"] = {
     enabled = true,

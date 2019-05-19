@@ -1,13 +1,13 @@
+--#Chinese Language Pack
+ServerModSetup("1301033176")
+--#Chinese Plus
+ServerModSetup("572538624")
 --#Moving Box
 ServerModSetup("1079538195")
 --#Global Positions
 ServerModSetup("378160973")
---#Restart
-ServerModSetup("462434129")
 --#Extra Equip Slots
 ServerModSetup("375850593")
---#Health Info
-ServerModSetup("375859599")
 --#Show Me
 ServerModSetup("666155465")
 --#Storeroom
