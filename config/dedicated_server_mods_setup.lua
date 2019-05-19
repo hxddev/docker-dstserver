@@ -2,16 +2,16 @@
 ServerModSetup("1079538195")
 --#Global Positions
 ServerModSetup("378160973")
+--#Restart
+ServerModSetup("462434129")
+--#Extra Equip Slots
+ServerModSetup("375850593")
 --#Health Info
 ServerModSetup("375859599")
 --#Show Me
 ServerModSetup("666155465")
---#Extra Equip Slots
-ServerModSetup("375850593")
 --#Storeroom
 ServerModSetup("623749604")
---#Restart
-ServerModSetup("462434129")
 --#MyPet
 ServerModSetup("1275167632")
 
