@@ -16,10 +16,8 @@ return {
   --#Restart
   ["workshop-462434129"] = { enabled = true },
 
-  --#娜娜奇
-  ["workshop-1166220990"] = { enabled = true },
-  --#莉可
-  ["workshop-1181077385"] = { enabled = true },
-  --#雷古
-  ["workshop-1217385169"] = { enabled = true },
+  --#精灵公主
+  ["workshop-439115156"] = { enabled = true },
+  --#乃木园子
+  ["workshop-1645013096"] = { enabled = true },
 }

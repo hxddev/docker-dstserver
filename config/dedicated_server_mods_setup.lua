@@ -15,9 +15,7 @@ ServerModSetup("623749604")
 --#Restart
 ServerModSetup("462434129")
 
---#娜娜奇
-ServerModSetup("1166220990")
---#莉可
-ServerModSetup("1181077385")
---#雷古
-ServerModSetup("1217385169")
+--#精灵公主
+ServerModSetup("439115156")
+--#乃木园子
+ServerModSetup("1645013096")
