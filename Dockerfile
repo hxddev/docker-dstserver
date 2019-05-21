@@ -21,8 +21,7 @@ RUN dpkg --add-architecture i386 \
   lib32gcc1 \
   libstdc++6:i386 \
   libcurl4-gnutls-dev:i386 \
-  iproute2 \
-  vi
+  iproute2
 
 # 基本设置（用户、工作目录、持久卷）
 RUN useradd -ms /bin/bash dstserver
