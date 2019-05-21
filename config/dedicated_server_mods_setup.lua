@@ -8,6 +8,8 @@ ServerModSetup("1079538195")
 ServerModSetup("378160973")
 --#Extra Equip Slots
 ServerModSetup("375850593")
+--#Simple Health Bar
+ServerModSetup("1207269058")
 --#Show Me
 ServerModSetup("666155465")
 --#Storeroom

@@ -9,6 +9,8 @@ return {
   ["workshop-378160973"] = { enabled = true },
   --#Extra Equip Slots
   ["workshop-375850593"] = { enabled = true },
+  --#Simple Health Bar
+  ["workshop-1207269058"] = { enabled = true },
   --#Show Me
   ["workshop-666155465"] = {
     enabled = true,

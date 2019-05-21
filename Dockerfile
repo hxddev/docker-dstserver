@@ -20,7 +20,8 @@ RUN dpkg --add-architecture i386 \
   lib32gcc1 \
   libstdc++6:i386 \
   libcurl4-gnutls-dev:i386 \
-  iproute2
+  iproute2 \
+  vi
 
 RUN useradd -ms /bin/bash dstserver
 USER dstserver
@@ -30,7 +31,11 @@ RUN wget -O linuxgsm.sh https://linuxgsm.sh \
   && chmod +x linuxgsm.sh \
   && bash linuxgsm.sh dstserver
 
-RUN ./dstserver auto-install
+RUN cp ./dstserver ./dstserver-master
+RUN mv ./dstserver ./dstserver-caves
+
+# RUN ./dstserver-master auto-install
+# RUN ./dstserver-caves auto-install
 
 RUN mkdir /home/dstserver/config
 COPY ./config /home/dstserver/config
