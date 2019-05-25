@@ -57,5 +57,5 @@ return {
   --#Chinese Language Pack
   ["workshop-1301033176"] = {
     enabled = true
-  }
+  },
 }
