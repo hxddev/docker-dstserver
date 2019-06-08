@@ -6,8 +6,8 @@ ServerModSetup("362175979")
 ServerModSetup("375850593")
 --#Global Positions
 ServerModSetup("378160973")
---#More Actions
-ServerModSetup("447092740")
+-- --#More Actions
+-- ServerModSetup("447092740")
 --#No Thermal Stone Durability
 ServerModSetup("466732225")
 --#Chinese Plus

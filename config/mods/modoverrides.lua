@@ -15,10 +15,10 @@ return {
   ["workshop-378160973"] = {
     enabled = true,
   },
-  --#More Actions
-  ["workshop-447092740"] = {
-    enabled = true,
-  },
+  -- --#More Actions
+  -- ["workshop-447092740"] = {
+  --   enabled = true,
+  -- },
   --#No Thermal Stone Durability
   ["workshop-466732225"] = {
     enabled = true,
