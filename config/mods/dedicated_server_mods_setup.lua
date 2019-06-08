@@ -6,8 +6,8 @@ ServerModSetup("362175979")
 ServerModSetup("375850593")
 --#Global Positions
 ServerModSetup("378160973")
--- --#More Actions
--- ServerModSetup("447092740")
+--#More Actions
+ServerModSetup("447092740")
 --#No Thermal Stone Durability
 ServerModSetup("466732225")
 --#Storeroom
@@ -18,7 +18,7 @@ ServerModSetup("661253977")
 ServerModSetup("666155465")
 --#Moving Box
 ServerModSetup("1079538195")
-#Simple Health Bar
+--#Simple Health Bar
 ServerModSetup("1207269058")
 --#MyPet
 ServerModSetup("1275167632")
