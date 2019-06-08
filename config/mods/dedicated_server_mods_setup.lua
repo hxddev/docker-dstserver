@@ -22,5 +22,3 @@ ServerModSetup("1079538195")
 ServerModSetup("1207269058")
 --#MyPet
 ServerModSetup("1275167632")
---#Chinese Language Pack
-ServerModSetup("1301033176")

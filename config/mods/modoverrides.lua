@@ -49,9 +49,5 @@ return {
   ["workshop-1275167632"] = {
     enabled = true,
     modlanguage = "chinese",
-  },
-  --#Chinese Language Pack
-  ["workshop-1301033176"] = {
-    enabled = true,
-  },
+  }
 }
