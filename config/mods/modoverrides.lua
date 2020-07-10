@@ -37,4 +37,12 @@ return {
   ["workshop-1301033176"] = {
     enabled = true,
   },
+  --#Myth Words Theme
+  ["workshop-1991746508"] = {
+    enabled = true,
+  },
+  --#Myth Words Character
+  ["workshop-1699194522"] = {
+    enabled = true,
+  },
 }

@@ -16,3 +16,8 @@ ServerModSetup("1079538195")
 ServerModSetup("1207269058")
 --#Chinese Language Pack
 ServerModSetup("1301033176")
+
+--#Myth Words Theme
+ServerModSetup("1991746508")
+--#Myth Words Character
+ServerModSetup("1699194522")
