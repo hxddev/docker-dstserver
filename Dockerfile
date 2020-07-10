@@ -9,7 +9,7 @@ RUN mkdir config
 COPY config config
 
 # 覆盖 LGSM 安装配置文件
-RUN cd .klei \
+RUN \
   && cp -f config/_default.cfg lgsm/config-default/config-lgsm/dstserver/_default.cfg \
   && cp config/caves/install.cfg lgsm/config-lgsm/dstserver/dstserver-caves.cfg \
   && cp config/master/install.cfg lgsm/config-lgsm/dstserver/dstserver-master.cfg
