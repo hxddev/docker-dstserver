@@ -1,38 +1,7 @@
-FROM ubuntu
+FROM gameservermanagers/linuxgsm-docker
 
-# 安装服务器环境
-RUN dpkg --add-architecture i386 \
-  && apt update \
-  && apt install -y \
-  curl \
-  tmux \
-  wget \
-  ca-certificates \
-  file \
-  bsdmainutils \
-  util-linux \
-  python \
-  bzip2 \
-  gzip \
-  unzip \
-  binutils \
-  bc \
-  jq \
-  lib32gcc1 \
-  libstdc++6:i386 \
-  libcurl4-gnutls-dev:i386 \
-  iproute2 \
-  vim
-
-# 设置用户和工作目录
-RUN useradd -ms /bin/bash dstserver
-USER dstserver
-WORKDIR /home/dstserver
-
-# 下载并初始化环境
-RUN wget -O linuxgsm.sh https://linuxgsm.sh \
-  && chmod +x linuxgsm.sh \
-  && bash linuxgsm.sh dstserver \
+# 下载 dstserver
+RUN bash linuxgsm.sh dstserver \
   && ./dstserver auto-install
 
 # 复制所有配置文件到容器
@@ -40,8 +9,8 @@ RUN mkdir config
 COPY config config
 
 # 覆盖 LGSM 安装配置文件
-RUN cd /home/dstserver/.klei/ && ls
-RUN cp -f config/_default.cfg lgsm/config-default/config-lgsm/dstserver/_default.cfg \
+RUN cd .klei \
+  && cp -f config/_default.cfg lgsm/config-default/config-lgsm/dstserver/_default.cfg \
   && cp config/caves/install.cfg lgsm/config-lgsm/dstserver/dstserver-caves.cfg \
   && cp config/master/install.cfg lgsm/config-lgsm/dstserver/dstserver-master.cfg
 
@@ -60,9 +29,5 @@ RUN cp config/cluster.ini .klei/DoNotStarveTogether/Cluster_1/cluster.ini
 RUN cp config/caves/server.ini .klei/DoNotStarveTogether/Cluster_1/Caves/server.ini
 RUN cp config/master/server.ini .klei/DoNotStarveTogether/Cluster_1/Master/server.ini
 
-# 数据卷
-VOLUME [ "/home/dstserver" ]
-
 # 复制并设置入口脚本
-COPY entrypoint.sh entrypoint.sh
-ENTRYPOINT ["bash", "entrypoint.sh" ]
+COPY entrypoint.sh /entrypoint.sh
