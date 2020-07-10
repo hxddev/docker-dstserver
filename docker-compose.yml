@@ -6,7 +6,7 @@ services:
     ports:
       - "11000:11000/udp"
     environment:
-      CLUSTER_TOKEN: your-cluster-token
+      CLUSTER_TOKEN: ${CLUSTER_TOKEN}
     deploy:
       replicas: 1
       restart_policy:
