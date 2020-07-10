@@ -13,8 +13,8 @@ cp dstserver dstserver-master
 mv dstserver dstserver-caves
 
 # 安装服务
-./dstserver-master auto-install; exit 0
-./dstserver-caves auto-install; exit 0
+./dstserver-master auto-install
+./dstserver-caves auto-install
 
 # 覆盖集群配置
 cp config/cluster.ini .klei/DoNotStarveTogether/Cluster_1/cluster.ini
