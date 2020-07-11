@@ -5,6 +5,8 @@ services:
     build: .
     ports:
       - "11000:11000/udp"
+    volumes:
+      - "./config:/home/linuxgsm/config"
     environment:
       CLUSTER_TOKEN: ${CLUSTER_TOKEN}
     dns:
